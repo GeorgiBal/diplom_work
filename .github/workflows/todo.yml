@@ -13,6 +13,6 @@ jobs:
       - name: Add to Project
         uses: tibdex/autoproject@v1
         with:
-          project-name: "Име на вашия проект"
+          project-name: "GeorgiBal's diplom project"
           status: "TODO"
 
