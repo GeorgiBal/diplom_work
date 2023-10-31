@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Add to Project
         run: |
-          gh issue create --project "GeorgiBal's diplom project" --status "TODO" --title "${{ github.event.issue.title }}" --body "${{ github.event.issue.body }}"
+          gh issue create --project "GeorgiBal's diplom project" --status "Todo" --title "${{ github.event.issue.title }}" --body "${{ github.event.issue.body }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
