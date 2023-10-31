@@ -1,0 +1,18 @@
+name: Add Issues to Project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Add to Project
+        uses: tibdex/autoproject@v1
+        with:
+          project-name: "Име на вашия проект"
+          status: "TODO"
+
